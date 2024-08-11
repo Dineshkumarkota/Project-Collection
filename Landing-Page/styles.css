@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+    }
+.navbar-para{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.navbar-container{
+     background-color: #1F2937;
+}
+.navbar-container h1{
+    font-size: 48px;
+    font: weight 800px;
+    color:#E5E7EB;  
+}
+.navbar-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-section{
+    display: flex;
+    padding: 20px;
+     margin:30px ;
+     justify-content: space-between;
+     gap: 50px;
+     text-wrap: pretty;
+     inline-size: none;
+     font-style: italic;
+}
+h3{
+    font: weight 200px;;
+}
+
+.header button{
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 20px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.information{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center ;
+    padding: 20px;
+    margin: 20px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin: 0;
+}
+.signup {
+    display: flex;
+    padding: 50px 100px;
+    margin: 100px 400px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .signup button {
+   background-color: #3882F6;
+   color:#fff;
+    font-weight: bolder;
+    width: 200px;
+    border: 5px solid #E5E7EB;
+    border-radius: 10px;
+  }
+  
+  .action .first {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .container{
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+.tag{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3882F6;
+    background-color: #E5E7EB;
+    gap: 20px;
+    border-radius: 10px;
+}
+a:hover{
+color:#000;
+transition: 0.3s;
+text-decoration: none;
+cursor: pointer;
+font-weight: 300;
+}
+    
