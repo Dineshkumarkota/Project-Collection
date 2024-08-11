@@ -1,0 +1,47 @@
+.card img{
+    border-radius: 20px;
+    width: 100%;
+ }
+ .card-body{
+     padding: 16px;
+     border-radius: 50px;
+ }
+  body{
+     padding: 100px;
+  }
+  .card{
+     width: 500px;
+     height: 125px;
+     padding: 20px;
+     overflow: hidden;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .Design{
+     background-color: #E6D6FC;
+     border-radius: 20px;
+     padding: 8px;
+     width: 90px;
+     text-align: center;
+     color:#883AE1;
+     font-weight: 600;
+  }
+  .minimalism{
+     width: 500px;
+     color: #20293A;
+     font-weight: bolder;
+  }
+ .card-text{
+     color: #6C727F;
+     font-size: 20px;
+ }
+ span{
+     color:#6C727F;
+     font-size: 18px;
+ }
+ hr {
+    border: none; /* Remove the default border */
+    border-top: 1px solid #E6E6E6; /* Custom border style */
+    width: 100%; /* Make hr full width */
+    margin: 16px 0; /* Optional: Adjust margin */
+    height: 1px; /* Set height if needed */
+}
