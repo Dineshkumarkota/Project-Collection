@@ -1,0 +1,128 @@
+/* Overall Styling */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(202, 86%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+
+.calculator,
+.results {
+  flex: 1;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-colour: ;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(200, 24%, 40%);
+  margin-bottom: 20px;
+}
+
+form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: hsl(202, 55%, 16%);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid hsl(203, 41%, 72%);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  display: inline-block;
+  background-color: hsl(61, 70%, 52%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: hsl(61, 70%, 42%);
+}
+
+button#clear-all {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: grey;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button#clear-all:hover {
+  background-color: hsl(0, 0%, 60%);
+}
+
+button + button {
+  margin-left: 10px; /* Space between buttons */
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(202, 55%, 16%);
+}
+.Flexcalc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Flexcalc h1 {
+  text-colour: black;
+}
+.MortgageFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
