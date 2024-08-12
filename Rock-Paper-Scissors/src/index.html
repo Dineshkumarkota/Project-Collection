@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .game-button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+    }
+    #results {
+      margin-top: 20px;
+    }
+    #score {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors Game</h1>
+    <button class="game-button" data-choice="rock">Rock</button>
+    <button class="game-button" data-choice="paper">Paper</button>
+    <button class="game-button" data-choice="scissors">Scissors</button>
+    <div id="results"></div>
+    <div id="score"></div>
+  </div>
+  <script src="index.mjs"></script>
+</body>
+</html>
+
