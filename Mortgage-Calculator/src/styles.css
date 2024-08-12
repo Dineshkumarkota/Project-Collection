@@ -27,7 +27,7 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-colour: ;
+  
 }
 
 .calculator {
@@ -119,7 +119,7 @@ button + button {
   justify-content: space-between;
 }
 .Flexcalc h1 {
-  text-colour: black;
+  color: black;
 }
 .MortgageFlex {
   display: flex;
