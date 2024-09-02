@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 18px;
+    max-width: 1280px;
+    bottom: 100px;
+    background-color: #FFFFFF;
+}
+.dark-mode{
+    
+        background-color: black;
+        color: white;
+    
+}
+
+#theme-switch{
+    background-color:black;
+    border-radius: 50px;
+  border: 0;
+  padding: 3px;
+}
+#sun-icon{
+    background-color: white;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+ 
+}
+.fw-blod{
+    font-weight: bolder;
+
+}
+.homepage{
+    padding: 50px;
+    margin-top: 40px;
+}
+.homepage h1{
+    margin-top: 20px;
+    font-size: 60px;
+    color: #223344;
+    
+}
+.homepage h6{
+    font-size: 18px;
+    margin-top: 40px;
+    color: #223344;
+    font-weight: 400;
+}
+.homepage button{
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+width: 200px;
+background-color: #2A4DD0;
+color: #FFFFFF;
+font-size: 16px;
+}
+.demo{
+    margin-left: 30px;
+    text-decoration: underline;
+    color: #2A4DD0;
+    font-weight: 500;
+}
+.check{
+    margin-top: 50px;
+   margin-right: 20px;
+}
+.hero{
+display: flex;
+justify-content: space-around;
+}
+.heroimage{
+    margin-top:60px;
+}
