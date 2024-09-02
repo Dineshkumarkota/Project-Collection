@@ -1,5 +1,5 @@
 # Business-Blog-Card
-
+![alt text](image.png)
 
 This project is a business blog card built using HTML, CSS, and Bootstrap as part of a front-end challenge on the DEV website. The blog card is designed to showcase a short summary of a business-related blog post along with relevant details like the author, date, and a call to action.
 
