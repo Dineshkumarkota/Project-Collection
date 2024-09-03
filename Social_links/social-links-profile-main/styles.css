@@ -1,0 +1,125 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    border: 3px solid hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 12%);
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    height: 600px;
+}
+img{
+    width:10px;
+    height:10px;
+    zoom:12;
+    border-radius: 50%;
+}
+
+.heading h1{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+.heading h3{
+    margin-top: 0;
+    font-size: 16px;
+    color: hsl(75, 94%, 57%);
+}
+.span{
+    font-size: 16px;
+   margin-bottom: 20px;
+}
+
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin: 10px;
+
+   
+}
+#git,#LinkedIn,#Instagram,#Email,#Twitter{
+    background-color:  hsl(0, 0%, 20%);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+#git:hover,#LinkedIn:hover,#Instagram:hover:hover,#Email:hover,#Twitter:hover{
+    background-color: hsl(75, 94%, 57%);
+ 
+}
+a:hover{
+    color: hsl(0, 0%, 8%);
+}
+/* Media query for larger screens (desktops) */
+@media (min-width: 768px) {
+    .container {
+        width: 13%; /* More space for desktops */
+        padding: 50px;
+        height: 600px;
+    }
+
+    img {
+        width:10px;
+    height:10px;
+    zoom:12;
+    border-radius: 50%;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .heading h3 {
+        font-size: 18px;
+    }
+
+    .span {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+/* Media query for very small mobile devices */
+@media (max-width: 400px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    img {
+        width:10px;
+    height:10px;
+    zoom:12;
+    border-radius: 50%;
+    }
+
+    .heading h1 {
+        font-size: 20px;
+    }
+
+    .heading h3 {
+        font-size: 12px;
+    }
+
+    .span {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
